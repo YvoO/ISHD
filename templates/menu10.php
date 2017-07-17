@@ -1,0 +1,13 @@
+<div class="menu">
+	<ul class="list-unstyled">
+		<li><?php if ($page_id == 'root-21') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat.php">Description</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat.php">Description</a>';} ?></li>
+		<li><?php if ($page_id == 'root-22') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room1">Room I</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room1.php">Room I</a>';} ?></li>
+		<li><?php if ($page_id == 'root-23') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room2">Room II</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room2.php">Room II</a>';} ?></li>
+		<li><?php if ($page_id == 'root-24') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room3">Room III</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room3.php">Room III</a>';} ?></li>
+		<li><?php if ($page_id == 'root-25') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room4">Room IV</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-room4.php">Room IV</a>';} ?></li>
+		<li><?php if ($page_id == 'root-26') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-kitchen">Kitchen</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-kitchen.php">Kitchen</a>';} ?></li>
+		<li><?php if ($page_id == 'root-27') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-other.php">Other</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-other.php">Other</a>';} ?></li>
+		<li><?php if ($page_id == 'root-28') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-neighborhood">Neighbourhood</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-neighborhood.php">Neighbourhood</a>';} ?></li>
+		<li><?php if ($page_id == 'root-29') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-price.php">Price</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'paulus-buijsstraat-price.php">Price</a>';} ?>
+	</ul>
+</div>

@@ -1,0 +1,13 @@
+<div class="menu">
+	<ul class="list-unstyled">
+		<li><?php if ($page_id == 'root-31') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat.php">Description</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat.php">Description</a>';} ?></li>
+		<li><?php if ($page_id == 'root-32') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room1">Room I</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room1.php">Room I</a>';} ?></li>
+		<li><?php if ($page_id == 'root-33') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room2">Room II</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room2.php">Room II</a>';} ?></li>
+		<li><?php if ($page_id == 'root-34') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room3">Room III</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room3.php">Room III</a>';} ?></li>
+		<li><?php if ($page_id == 'root-35') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room4">Room IV</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-room4.php">Room IV</a>';} ?></li>
+		<li><?php if ($page_id == 'root-36') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-kitchen">Kitchen</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-kitchen.php">Kitchen</a>';} ?></li>
+		<li><?php if ($page_id == 'root-37') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-other.php">Other</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-other.php">Other</a>';} ?></li>
+		<li><?php if ($page_id == 'root-38') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-neighborhood">Neighbourhood</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-neighborhood.php">Neighbourhood</a>';} ?></li>
+		<li><?php if ($page_id == 'root-39') { echo '<a class="btn-primary btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-price.php">Price</a>'; } else { echo '<a class="btn btn-default btn-block menuu" href="'.$path.'vanderlelijstraat-price.php">Price</a>';} ?>
+	</ul>
+</div>

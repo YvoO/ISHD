@@ -1,0 +1,319 @@
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto; }
+
+body {
+  min-height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  color: #222;
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+  margin-bottom: 100px; }
+
+a {
+  color: #FF5722;
+  cursor: pointer; }
+
+h2, h3, h4 {
+  font-weight: 900 !important; }
+
+.navbar {
+  margin-bottom: 0px !important;
+  border-radius: 0px;
+  height: 80px; }
+  .navbar .navbar-collapse {
+    background: #1e1e1e;
+    z-index: 100;
+    position: relative; }
+  .navbar .logo {
+    display: block;
+    height: 60px;
+    margin-top: 0px;
+    z-index: 101;
+    position: relative; }
+  .navbar ul li a {
+    font-size: 15px;
+    color: white !important; }
+    .navbar ul li a:hover, .navbar ul li a:active {
+      color: #FF5722 !important; }
+
+.navbar-default {
+  background-color: #1e1e1e;
+  border-style: none; }
+  .navbar-default .navbar-nav {
+    margin: 19px 0 0 50px !important; }
+
+.banner {
+  background-image: url(../images/br4.jpg);
+  background-size: cover; }
+  .banner .titleBlock .title {
+    font-size: 3.5em;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    line-height: 50px;
+    color: #1e1e1e; }
+  .banner .titleBlock .quote {
+    font-size: 1.3em;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: #1e1e1e;
+    margin-top: 0px; }
+  .banner .titleBlock .mobiletitle {
+    font-size: 2.8em;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2.4px;
+    line-height: 50px;
+    color: white; }
+  .banner .titleBlock .mobilequote {
+    font-size: 1.2em;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    margin-top: 0px; }
+  .banner .offer {
+    margin-bottom: 50px; }
+    .banner .offer .backg {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 4px;
+      border: 1px solid #D9D9D9;
+      min-height: 250px; }
+      .banner .offer .backg ul {
+        margin: 0px 0;
+        padding-left: 20px;
+        list-style: none; }
+        .banner .offer .backg ul li {
+          padding-left: 15px;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.7);
+          background: url(../images/bullet.png) no-repeat left; }
+
+.banner .titleBlock, .banner .offer .backg {
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px; }
+
+.titels {
+  text-align: center;
+  color: #1e1e1e;
+  margin-top: 50px;
+  font-size: 3.5em;
+  font-weight: 800;
+  font-style: normal; }
+
+.knop {
+  background-color: #FF5722;
+  color: #1e1e1e;
+  padding: 20px 20px 20px 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  font-weight: 800;
+  font-style: normal;
+  border: none !important; }
+
+.no-dec {
+  text-decoration: none !important;
+  color: #1e1e1e; }
+  .no-dec .vak {
+    border: 1px solid #D8E2EA;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px; }
+    .no-dec .vak .vaktitle {
+      background-color: #1e1e1e;
+      color: #FF5722;
+      padding: 20px;
+      margin-top: 0px;
+      text-align: center; }
+    .no-dec .vak .innervak {
+      padding: 20px; }
+
+.btn-primary {
+  color: #1e1e1e;
+  font-weight: 800;
+  background-color: #FF5722;
+  border-color: #FF5722; }
+
+.social {
+  margin: 30px 0; }
+
+.roffa {
+  margin-top: 130px;
+  margin-bottom: 100px; }
+  .roffa .knop {
+    background-color: #FF5722;
+    color: #1e1e1e;
+    padding: 20px 20px 20px 20px;
+    margin-top: 0px;
+    font-size: 1.2em;
+    font-weight: 800;
+    font-style: normal;
+    border: none !important; }
+
+.contactbtn {
+  background-color: #1e1e1e;
+  color: #FF5722;
+  padding: 20px 20px 20px 20px;
+  margin-top: 0px;
+  border: none !important; }
+
+.facebookbtn {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 20px 20px 20px 20px;
+  margin-top: 0px;
+  border: none !important; }
+
+.googlebtn {
+  background-color: #db4437;
+  color: #fff;
+  padding: 20px 20px 20px 20px;
+  margin-top: 0px;
+  border: none !important; }
+
+.content {
+  margin: 50px -15px; }
+
+.footer {
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white; }
+  .footer h4 {
+    padding: 10px 0 0 0;
+    font-size: 1.5em;
+    font-weight: 400 !important; }
+  .footer .knop {
+    background-color: #FF5722;
+    color: #1e1e1e;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0px;
+    font-size: 0.8em;
+    font-weight: 800;
+    font-style: normal;
+    border: none !important;
+    margin-left: 20px; }
+  .footer .footercontent {
+    padding: 20px 0 10px 0; }
+    .footer .footercontent a {
+      color: white; }
+    .footer .footercontent a:hover {
+      color: #FF5722;
+      text-decoration: none; }
+    .footer .footercontent p {
+      text-align: center; }
+  .footer .facebookbtn {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: -10px;
+    border: none !important; }
+  .footer .googlebtn {
+    background-color: #db4437;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: -10px;
+    border: none !important; }
+
+.subfooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px 0 0 0;
+  font-weight: 100; }
+
+.mobfooter {
+  position: relative;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white; }
+  .mobfooter h4 {
+    padding: 10px 0 0 0;
+    font-size: 1.5em;
+    font-weight: 400 !important; }
+  .mobfooter .knop {
+    background-color: #FF5722;
+    color: #1e1e1e;
+    padding: 10px 10px 10px 10px;
+    margin-top: 0px;
+    font-size: 0.8em;
+    font-weight: 800;
+    font-style: normal;
+    border: none !important;
+    margin-left: 20px; }
+  .mobfooter .footercontent {
+    padding: 20px 0 10px 0; }
+    .mobfooter .footercontent a {
+      color: white; }
+    .mobfooter .footercontent a:hover {
+      color: #FF5722;
+      text-decoration: none; }
+    .mobfooter .footercontent p {
+      text-align: center; }
+  .mobfooter .facebookbtn {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: -10px;
+    border: none !important; }
+  .mobfooter .googlebtn {
+    background-color: #db4437;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: -10px;
+    border: none !important; }
+
+.mobsubfooter {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px 0 0 0;
+  font-weight: 100; }
+
+.cinfo {
+  display: inline-block; }
+  .cinfo a {
+    margin-left: 5px; }
+
+.menuu {
+  border-radius: 0px !important;
+  margin-bottom: -1px !important; }
+
+.carousel-indicators li {
+  border: 1px solid #FF5722; }
+.carousel-indicators .active {
+  background-color: #FF5722; }
+
+.carousel-control {
+  color: #FF5722;
+  opacity: 1;
+  text-shadow: none; }
+  .carousel-control:hover, .carousel-control:focus {
+    color: #FF5722; }
+
+.carousel-caption {
+  color: #FF5722; }
+
+.panel-default > .panel-heading {
+  color: #1e1e1e;
+  background-color: #FF5722;
+  padding: 20px 20px 20px 20px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
